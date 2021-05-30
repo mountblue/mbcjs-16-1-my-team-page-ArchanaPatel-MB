@@ -1,0 +1,49 @@
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+body{
+    margin-left: 3%;
+}
+.vertical{
+    writing-mode: vertical-rl;
+    position: relative;
+    left:81.5%;
+    bottom: 109%;
+}
+#outer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+img{
+    width: 15rem;
+    height: 15rem;
+}
+.second{
+    margin-top: 4%;
+    height:20rem;
+    margin-bottom:2%;
+}
+.continer{
+    height:17rem;
+    margin-bottom:2%;
+
+}
+#sec_ver{
+    margin-top: 22%;
+}
+#fifth_ver{
+    margin-top: 22%;
+}
+@media only screen and (max-width: 1034px){
+    body{
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 691px){
+
+}
